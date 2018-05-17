@@ -13,6 +13,7 @@ function dragElement(elmnt) {
   }
 
   function dragMouseDown(e) {
+	document.getElementById("navlist").style.boxShadow = "3px 3px 3px 3px"
     e = e || window.event;
     // get the mouse cursor position at startup:
     pos3 = e.clientX;
@@ -36,6 +37,7 @@ function dragElement(elmnt) {
 
   function closeDragElement() {
     /* stop moving when mouse button is released:*/
+	document.getElementById("navlist").style.boxShadow = "2px 2px 2px 2px"
     document.onmouseup = null;
     document.onmousemove = null;
 	elmnt.position = "fixed";

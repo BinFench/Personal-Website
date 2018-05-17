@@ -4,14 +4,14 @@
 }
 
 ul {
-	border-radius: 20px;
+	border-radius: 15px;
 	list-style-type: none;
 	margin: 0px 0px;
-	padding: 0px 0px 0px 0px;
+	padding: 2px 0px 0px 0px;
 	overflow: hidden;
 	background-color: #0d47a5;
 	white-space: nowrap;
-	box-shadow: 5px 5px 5px 5px;
+	box-shadow: 2px 2px 2px 2px;
 }
 
 li {
